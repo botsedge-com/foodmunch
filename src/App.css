@@ -1,0 +1,315 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.navbar-image-logo {
+  height: 80px;
+  width: 80px;
+}
+.home-bg-container {
+  background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/foodmunch-banner-bg.png");
+  height: 100vh;
+  background-size: cover;
+}
+
+.wcu-section {
+  background-color: #f9fbfe;
+}
+.wcu-list-card {
+  background-color: white;
+  text-align: center;
+  border-style: solid;
+  border-color: #e7eefd;
+  border-width: 1px;
+  border-radius: 16px;
+}
+.wcu-card-title {
+  color: #323f4b;
+  font-family: "Roboto";
+  font-size: 22px;
+  font-weight: 500;
+}
+.wcu-card-description {
+  color: #7b8794;
+  font-family: "Roboto";
+  font-size: 16px;
+}
+
+.menu-section {
+  background-color: white;
+}
+.menu-item-image {
+  border-radius: 16px;
+}
+.menu-item-card {
+  border-radius: 16px;
+}
+.menu-item-heading {
+  font-size: 24px;
+}
+.fresh-food-section {
+  background-color: #f9fbfe;
+}
+.healthy-food-section-heading {
+  color: #183b56;
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: 700;
+}
+.healthy-food-section-description {
+  color: #5a7184;
+  font-family: "Roboto";
+  font-size: 16px;
+}
+.healthy-food-section-img {
+  width: 270px;
+}
+
+.delivery-payment-section {
+  background-color: white;
+}
+.delivery-image {
+  width: 270px;
+}
+.payment-card-img {
+  width: 50px;
+  height: 50px;
+  margin-right: 28px;
+}
+
+.thanking-customers-section {
+  background-image: linear-gradient(to right, #f5cb42, #3a2491);
+}
+.thanking-customers-section-heading {
+  color: #183b56;
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: 700;
+}
+.thanking-customers-section-description {
+  color: #5a7184;
+  font-family: "Roboto";
+  font-size: 16px;
+}
+.thanking-customers-section-img {
+  width: 270px;
+  margin-bottom: 20px;
+}
+.custom-button {
+  color: white;
+  background-color: #d0b200;
+  width: 130px;
+  height: 45px;
+  border-width: 0;
+  border-radius: 8px;
+}
+
+.follow-section {
+  background-color: white;
+}
+
+.icon-container {
+  background-color: #faf7e8;
+  height: 80px;
+  width: 80px;
+  text-align: center;
+  padding-top: 22px;
+  padding-bottom: 10px;
+  border-radius: 50px;
+  margin: 15px;
+}
+.icon-design {
+  font-size: 35px;
+  color: #d0b200;
+}
+
+.footer-section {
+  background-color: #0d1829;
+}
+.logo-card {
+  height: 80px;
+  width: 80px;
+}
+.footer-heading {
+  font-size: 16px;
+  color: #848787;
+}
+.footer-paragraph {
+  font-size: 12px;
+  color: #848787;
+}
+
+
+
+.navbar-image-logo {
+  height: 80px;
+  width: 80px;
+}
+.home-bg-container {
+  background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/foodmunch-banner-bg.png");
+  height: 100vh;
+  background-size: cover;
+}
+
+.wcu-section {
+  background-color: #f9fbfe;
+}
+.wcu-list-card {
+  background-color: white;
+  text-align: center;
+  border-style: solid;
+  border-color: #e7eefd;
+  border-width: 1px;
+  border-radius: 16px;
+}
+.wcu-card-title {
+  color: #323f4b;
+  font-family: "Roboto";
+  font-size: 22px;
+  font-weight: 500;
+}
+.wcu-card-description {
+  color: #7b8794;
+  font-family: "Roboto";
+  font-size: 16px;
+}
+
+.menu-section {
+  background-color: white;
+}
+.menu-item-image {
+  border-radius: 16px;
+}
+.menu-item-card {
+  border-radius: 16px;
+}
+.menu-item-heading {
+  font-size: 24px;
+}
+.fresh-food-section {
+  background-color: #f9fbfe;
+}
+.healthy-food-section-heading {
+  color: #183b56;
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: 700;
+}
+.healthy-food-section-description {
+  color: #5a7184;
+  font-family: "Roboto";
+  font-size: 16px;
+}
+.healthy-food-section-img {
+  width: 270px;
+}
+
+.delivery-payment-section {
+  background-color: white;
+}
+.delivery-image {
+  width: 270px;
+}
+.payment-card-img {
+  width: 50px;
+  height: 50px;
+  margin-right: 28px;
+}
+
+.thanking-customers-section {
+  background-image: linear-gradient(to right, #f5cb42, #3a2491);
+}
+.thanking-customers-section-heading {
+  color: #183b56;
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: 700;
+}
+.thanking-customers-section-description {
+  color: #5a7184;
+  font-family: "Roboto";
+  font-size: 16px;
+}
+.thanking-customers-section-img {
+  width: 270px;
+  margin-bottom: 20px;
+}
+.custom-button {
+  color: white;
+  background-color: #d0b200;
+  width: 130px;
+  height: 45px;
+  border-width: 0;
+  border-radius: 8px;
+}
+
+.follow-section {
+  background-color: white;
+}
+
+.icon-container {
+  background-color: #faf7e8;
+  height: 80px;
+  width: 80px;
+  text-align: center;
+  padding-top: 22px;
+  padding-bottom: 10px;
+  border-radius: 50px;
+  margin: 15px;
+}
+.icon-design {
+  font-size: 35px;
+  color: #d0b200;
+}
+
+.footer-section {
+  background-color: #0d1829;
+}
+.logo-card {
+  height: 80px;
+  width: 80px;
+}
+.footer-heading {
+  font-size: 16px;
+  color: #848787;
+}
+.footer-paragraph {
+  font-size: 12px;
+  color: #848787;
+}
